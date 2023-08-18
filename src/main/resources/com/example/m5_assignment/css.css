@@ -1,0 +1,42 @@
+.root {
+    -fx-background-color: #728362;
+}
+.button-bar{
+    -fx-padding: 0;
+    -fx-spacing: 0;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    }
+
+.button {
+    -fx-background-color: transparent;
+    -fx-font-family: 'EdgyFont', sans-serif;
+    -fx-text-fill: darkslategray;
+    -fx-font-size: 15px;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    -fx-padding: 0 0;
+    -fx-background-radius: 0;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-alignment: center;
+}
+
+.button:hover {
+    -fx-background-color:   #daa520;
+    -fx-background-size: 1px;
+}
+
+.button-bar.button:pressed {
+    -fx-background-color: #3E9142;
+}
+
+#matrix {
+
+      -fx-font-size:20px;
+      -fx-font-family: "Arial Black";
+      -fx-fill: #5A5A5A;
+      -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+      -fx-font-weight: bold;
+      -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
